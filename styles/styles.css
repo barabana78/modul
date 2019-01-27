@@ -1,0 +1,92 @@
+/*GENERALE*/
+body * {box-sizing: border-box;}
+body {
+  font-family: 'Aleo', serif, 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  width: auto;
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+h1 {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 44px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 22px;
+  letter-spacing: .31em;
+}
+/*header*/
+header {
+  background: #0460a0 url("../images/header_bg.png") no-repeat 0 0;
+  background-size: 100% auto;
+}
+.header {
+  padding: 150px 0 56px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header h3 {
+  margin: 8px 0 25px 0;
+}
+.header form {
+  background-color: #ffffff;
+  width: 515px;
+  height: 52px;
+  margin-bottom: 115px;
+}
+.header input {
+  width: 360px;
+  height: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.2em;
+  color: #999999;
+  text-align: center;
+  border: none;
+}
+.header .btn {
+  width: 150px;
+  height: 47px;
+  background-color: #5474fd;
+  font-family: 'Aleo', serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  margin-top: 2px;
+}
+.header .btn img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+.scroll {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.2em;
+}
+.
