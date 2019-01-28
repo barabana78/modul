@@ -6,7 +6,7 @@ body {
   color: #ffffff;
   padding: 0;
   margin: 0;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
 }
 a {
   text-decoration: none;
@@ -57,7 +57,7 @@ h3 {
 /*header*/
 header {
   background: #0460a0 url("../images/header_bg.png") no-repeat 0 0;
-  background-size: 100% auto;
+  background-size: cover;
 }
 .header {
   padding: 150px 0 47px 0;
@@ -136,7 +136,7 @@ header {
 /*CHOOSE*/
 .choose {
   background: #423d3b url("../images/castle.png") no-repeat 0 0;
-  background-size: 100% auto;
+  background-size: cover;
 }
 .choose-flex {
   display: flex;
@@ -159,12 +159,29 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 300px;
-}
-.choose-img img {
-  width: 200px;
+  width: 500px;
+  align-items: flex-start;
 }
 .choose-img img:nth-child(2) {
   align-self: flex-end;
-  margin-top: 2px;
+  margin-top: 5px;
+}
+/*SELECT*/
+.select {
+  background-color: #333333;
+  padding: 95px 0 115px;
+}
+.select-flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+.sel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Aleo', serif;
+  font-size: 36px;
+}
+.sel-item img {
+  margin-bottom: 22px;
 }
